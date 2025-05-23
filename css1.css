@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/Artboard 12.jpg");
+    color: #ffffff;
+    font-family:Poppins;
+	
+}
+
+.navi_bar 
+
+{
+    padding: 20px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #0F1923;
+    text-align:center;
+    justify-content: center;
+    border-bottom: 5px solid #e63f3f;	
+	
+}
+
+.navi_bar a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    font-family: Acumin pro;
+	margin-right: 30px;
+}
+
+.navi_bar ol li 
+{
+  display: inline-block;
+}
+
+
+.navi_bar a:hover 
+{
+    color: #ff7f31;
+}
+
+.cont1 
+{
+    padding: 20px 20px 20px 20px;
+    margin: 170px 0px 0px 0px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 5px;
+    display: block;
+}
+
+.button1
+{
+   	margin: 40px 0px 0px 0px;
+	padding: 20px 15px 14px 20px;
+    font-size: 20px;
+    background-color: #FF4655;
+    border: double;
+    border-radius: 0;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: Acumin pro;
+    letter-spacing: 1px;
+}
+
+.button1:hover 
+{
+    background-color: #ff7f31;
+    transform: scale(1.05);
+}
+
+.cont2
+{
+	margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+	background-color: #2A2020;
+	
+}
+
+.cont2 h1 
+  {
+   	font-family: Acumin pro;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.cont2 p 
+{
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #bbbbbb;
+}
+
+.box1 
+{
+	padding: 60px 0px 60px 0px;
+	margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    background-color: #131a24;
+}
+
+.box1card 
+{
+	padding: 50px 0px 40px 0px;
+	margin: 0px 0px 0px 0px;
+    background-color: #1a2533;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.box1card:hover
+{
+  background-color: #FF7171;
+}
+
+.box1card h1 
+{
+    font-family: Acumin pro;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.box1card  p 
+{
+    font-size: 16px;
+    color: white;
+}
+.cta
+{
+    text-align: center;
+    padding: 60px 60px 60px 60px;
+}
+
+.cta h1 
+{
+    font-family:Acumin pro;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px 0px 30px 0px;
+}
+
+.button2 
+{
+	margin: 20px 0px 0px 0px;
+    padding: 20px 18px 18px 18px;
+    font-size: 20px;
+    background-color: #FD7B36;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    transition: transform, 0.3s background-color, 0.3s;
+    font-family: Acumin pro;
+    letter-spacing: 1px;
+}
+
+.button2:hover
+{
+    background-color: #FD7B36;   
+}
+
+.img1
+{
+	margin: -120px 0px 0px 0px;
+}
+
+.textabout
+{
+	margin: 50px 0px 30px  0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+.imgcont1
+{
+	margin: 20px 0px 20px 260px;
+	padding: 0px 0px 0px 0px;
+	height: 500px;
+	width: 1000px;
+}
+
+ .theagent 
+{
+  margin: 0px 0px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-justify: auto;
+ }
+
+.theagent ul li
+{
+	text-decoration: none;
+}
+
+.agents-list 
+{
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: #0f1923;
+}
+
+.agent 
+{
+    text-align: center;
+}
+
+.agent img 
+{
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.agent h1 
+{
+    font-family: Acumin pro;
+    font-size: 32px;
+    color: #FF4655;
+    margin-bottom: 10px;
+}
+
+.agent p
+{
+    font-size: 18px;
+    color: #cccccc;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.media-section {
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+    background-color: #0f1923;
+}
+
+.media-section h1 
+{
+    font-family: Acumin pro;
+    font-size: 36px;
+    color: #FF4655;
+    margin-bottom: 30px;
+}
+
+.video1
+{
+    margin: 20px 20px 20px 20px;
+}
+
+.video1 iframe 
+{
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    border: none;
+}
+
+.image1
+{
+    margin: 40px 0px 0px 0px;
+}
+
+.image1 img 
+{
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.image1 p 
+{
+    color: #cccccc;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
